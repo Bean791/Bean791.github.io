@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/output.css" />
+    <title>Porfolio Tailwind</title>
+  </head>
+  <body class="bg-dua">
+    <nav class="lg:flex items-center justify-between m-5 mx-20 ">
+      <div>
+        <a href="#" class="text-2xl font-bold text-empat">Logo</a>
+      </div>
+      <div class="hidden lg:block">
+        <ul class="flex items-center justify-between ">
+          <li class="mx-3">
+            <a href="#home" class="text-lg font-medium text-empat">Home</a>
+          </li>
+          <li class="mx-3">
+            <a href="#about" class="text-lg font-medium text-empat">About</a>
+          </li>
+          <li class="mx-3">
+            <a href="#hasil" class="text-lg font-medium text-empat">Hasil</a>
+          </li>
+          <li class="mx-3">
+            <a href="#hubungi" class="text-lg font-medium text-empat">Saran</a>
+          </li>
+          <li class="mx-3">
+            <a href="https://bean791.github.io/" class="text-lg font-medium text-empat">Bootstrap</a>
+          </li>
+          <li class="mx-3">
+            <a href="#" class="text-lg font-medium text-empat">Darkmode</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="grid lg:grid-rows-1 grid-rows-2 grid-flow-col lg:gap-6 gap-12 text-center lg:my-0 my-20">
+        <div class=" lg:mt-20 lg:ml-20 mx-10 my-auto">
+            <img src="/img/ron-hewson-XOCupFAUXu0-unsplash.jpg" alt="" class="rounded-3xl lg:w-9/12 w-4/5 mx-auto hover:rounded-full hover:bg-empat duration-700 hover:p-2 hover:scale-75">
+        </div>
+        <div class="text-center my-auto mx-auto">
+            <h1 class="text-5xl text-empat text-bold my-5">Robin Anthony</h1>
+            <p class="text-2xl text-empat my-5">Siswa || SMK Petra</p>
+            <ul class="grid grid-rows-1 grid-flow-col gap-4">
+                <li>
+                    <a href="https://www.linkedin.com/in/robin-anthony-93b611229" class="text-2xl text-empat bg-dua shadow-xl px-5 py-2 rounded-2xl hover:bg-empat hover:text-dua duration-700 font-bold">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/robinant888/" class="text-2xl text-empat bg-dua shadow-xl px-5 py-2 rounded-2xl hover:bg-empat hover:text-dua duration-700 font-bold">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Bean791" class="text-2xl text-empat bg-dua shadow-xl px-5 py-2 rounded-2xl hover:bg-empat hover:text-dua duration-700 font-bold">GitHub</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="about" class="my-40 text-center lg:mx-20 mx-5" >
+        <h1 class="text-5xl text-empat my-20 ">About me</h1>
+        <div class="grid lg:grid-rows-1 grid-flow-col lg:gap-6 grid-rows-2">
+            <div class="mx-5 p-5 hover:bg-satu rounded-2xl my-auto duration-500 shadow-2xl">
+                <p class="text-2xl text-empat">Hallo saya Robin dari jurusan TKJ, saat ini masih kelas 10 dan mulai bersekolah di SMK Petra mulai dari july 2021 kemarin. Tujuan saya sekolah di SMK Petra untuk memperdalam kemampuan saya di beberapa bidang</p>
+              </div>
+              <div class="mx-5  p-5 hover:bg-satu rounded-2xl my-auto duration-500 shadow-2xl">
+                <p class="text-2xl text-empat">Untuk saat ini saya masih belajar mengenai beberapa hal contohnya di pemrograman saya masih belajar bebrapa bahasa mualai dari html untuk pemrograman web hingga python untuk pembuatan AI, hal serupa juga ingin saya pelajari di desain mulai dari 3d modeling hingga animasi 3d, selain pemrograman dan desain masih ada banyak hal yang ingin saya pelajari</p>
+              </div>
+        </div>
+    </section>
+    <section class="my-48 text-center" id="hasil">
+        <h1 class="text-empat text-5xl my-20">Hasil Belajar</h1>
+        <div class="grid lg:grid-rows-2  grid-rows-6 grid-flow-col lg:gap-3 gap-12 mx-20">
+            <img src="img/AsPi.png" class="rounded-2xl hover:bg-empat hover:p-2 mx-3 duration-700 scale-90 hover:scale-110" alt="..." />
+            <img src="img/AsPi.png" class="rounded-2xl hover:bg-empat hover:p-2 mx-3 duration-700 scale-90 hover:scale-110" alt="..." />
+            <img src="img/AsPi.png" class="rounded-2xl hover:bg-empat hover:p-2 mx-3 duration-700 scale-90 hover:scale-110" alt="..." />
+            <img src="img/AsPi.png" class="rounded-2xl hover:bg-empat hover:p-2 mx-3 duration-700 scale-90 hover:scale-110" alt="..." />
+            <img src="img/AsPi.png" class="rounded-2xl hover:bg-empat hover:p-2 mx-3 duration-700 scale-90 hover:scale-110" alt="..." />
+            <img src="img/AsPi.png" class="rounded-2xl hover:bg-empat hover:p-2 mx-3 duration-700 scale-90 hover:scale-110" alt="..." />
+        </div>
+    </section>
+    <section id="hubungi">
+        <h1 class="text-5xl text-empat text-center my-20">Hubungi Saya</h1>
+        <form name="kirimpes">
+                <div class="lg:mx-64 mx-5 p-5 hover:bg-satu rounded-2xl my-auto duration-500 shadow-2xl text-empat font-bold">
+                    <label for="nama" class="text-2xl ">Nama</label>
+                    <input type="text" name="nama" id="nama" class="w-full p-2 rounded-2xl my-2" placeholder="Masukan Nama">
+                    <label for="email" class="text-2xl ">Email</label>
+                    <input type="email" name="email" id="email" class="w-full p-2 rounded-2xl my-2" placeholder="Masukan Email">
+                    <label for="pesan" class="text-2xl ">Pesan</label>
+                    <textarea name="pesan" id="pesan" cols="30" rows="10" class="w-full p-2 rounded-2xl my-2" placeholder="Masukan Pesan"></textarea>
+                    <button type="submit" class="bg-empat text-xl text-satu p-2 px-10 rounded-full my-2 hover:bg-satu hover:text-empat duration-700 hover:scale-125">Kirim</button>
+                </div>
+        </form>
+    </section>
+    <footer class=" text-empat text-center p-5 pt-40 py-20 rounded-t-2xl">
+        <p class="text-4xl font-bold">Robin Anthony</p>
+        <p class="text-xl">2022</p>
+    </footer>
+  </body>
+</html>
